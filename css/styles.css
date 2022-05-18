@@ -610,6 +610,7 @@ img {
 .portfolio-item {
   width: 370px;
   background-color: var(--pf-item-bg);
+  cursor: pointer;
 }
 
 .portfolio-item:hover {
