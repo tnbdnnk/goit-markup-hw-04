@@ -184,17 +184,17 @@ img {
 .icon-mail::before {
   background-image: url(../images/icons.svg/envelope.svg);
   width: 16px;
-  color: #757575;
+  fill: #757575;
 }
 
 .icon-mail:hover::before {
-  color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .icon-smartphone::before {
   background-image: url(../images/icons.svg/smartphone.svg);
   width: 10px;
-  color: #757575;
+  fill: #757575;
 }
 
 /* ----------------------------------------MAIN---------------------------------------- */
@@ -613,7 +613,11 @@ img {
   cursor: pointer;
 }
 
-.portfolio-item:hover {
+.portfolio-card {
+  display: block;
+}
+
+.portfolio-card:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
